@@ -3,7 +3,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css');
 :root {
     --bgColor:#FC6076;
-    --accentColor: #ffffff;
+    --accentColor: #FF9A44;
     --accentColor2: #f6fff8;
     --font: 'Poppins', sans-serif;
     /* --firstName: 'John';
@@ -86,6 +86,22 @@ body{
 .link:hover{
     background-color: var(--bgColor);
     color: var(--accentColor);
+}
+
+.desc{
+    display: block;
+    background-color: var(--accentColor2);
+    border: solid var(--accentColo2r) 1px;
+    color: var(--accentColor);
+    font-family: var(--font);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all .25s cubic-bezier(.08,.59,.29,.99);
+    border-radius: 12px;
 }
 
 #ig{
