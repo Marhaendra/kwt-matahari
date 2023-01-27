@@ -9,12 +9,23 @@
         <meta property="og:description" content="A list of Your Name's most important links." />
         <link rel="stylesheet" href="css/style.css">
         <meta name="theme-color" content="var(--bgColor)">
+        <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     </head>
     <body>
             <!--Page Content Below-->
         <!-- <img id="userPhoto" class="animated rubberBand fast" src="images/profile-picture.webp" alt="Your Name's Photo"> -->
-        <h1 class="animated jello">KWT Matahari</h1>
-        <img src="images/InstagramLogo.svg" alt="InstagramLogo" id="userLogo" class="animated fadeIn delay-1s fast">
+        <img id="userPhoto" class="animated rubberBand fast" src="images/logo.png" alt="KWT Matahari Logo">
+        <div class="container">
+            <div class="animated fadeInUp">
+                <img id="profile" src="images/InstagramLogo.png" alt="">
+            </div>
+            <div class="animated fadeInUp">
+                <a href="https://www.instagram.com/kwtmatahari/" id="ig">KWT Matahari</a>
+            </div>
+        </div>
+        
+        
+        
         <div id="links" class="animated fadeInUp delay-1s">
             <a class="link" href="https://domain.com/" target="_blank">First Link</a>
             <a class="link" href="https://domain.com/" target="_blank">Second Link</a>
@@ -25,16 +36,42 @@
             <a class="link" href="https://domain.com/" target="_blank">Seventh Link</a>
        
         </div>
-        
-        <a href="mailto:you@email.com" class="animated fadeIn delay-3s slow" id="userName">Email Me</a>
-        
-        <!-- Attribution Repo Link -->
-        <a class="atrib" href="https://github.com/ExtremeMemes/linkbio">Made With ❤️ - linkbio</a>
+        <br><br><br><br>
+        <script>
+            
+
+
+            // $.ajax({
+            //     type: "GET",
+            //     url: "https://script.google.com/macros/s/AKfycbykEqOz1Jr1JQ3tTG2LrTNmFDHyWQ3wWQ2kfeaqTV15Ch1gs0s0xwAsvadJEqEoerxGwg/exec",
+            //     data: {},
+            //     success: function(result){
+            //         var myObject = JSON.stringify(result);
+            //         var json = JSON.parse(myObject);
+            //         console.log(json);
+            //     }
+            // });
+
+            // fetch('https://script.google.com/macros/s/AKfycbykEqOz1Jr1JQ3tTG2LrTNmFDHyWQ3wWQ2kfeaqTV15Ch1gs0s0xwAsvadJEqEoerxGwg/exec')
+            // .then(function (response) {
+            //     return response.json();
+            // })
+            // .then(function (data) {
+            //     console.log(data);
+            //     appendData(data);
+            // })
+            // .catch(function (err) {
+            //     console.log('error: ' + err);
+            // });
+            // function appendData(data) {
+            //     var mainContainer = document.getElementsByClassName("links");
+            //     for (var i = 0; i < data.length; i++) {
+            //         var div = document.createElement("div");
+            //         div.innerHTML = ' ' + data[i].Judul + ' ' + data[i].Link;
+            //         mainContainer.appendChild(div);
+            //     }
+            // };
+        </script>
+
     </body>
 </html>
-<!-- Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Sec -->

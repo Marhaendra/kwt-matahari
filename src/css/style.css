@@ -2,17 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css');
 :root {
-    --bgColor:#1C1C1C;
+    --bgColor:#FC6076;
     --accentColor: #ffffff;
-    --accentColor2: #fee440;
+    --accentColor2: #f6fff8;
     --font: 'Poppins', sans-serif;
     /* --firstName: 'John';
     --lastName: 'Doe'; */
 }
 
 body{
-    background-color: #52ACFF;
-    background-image: linear-gradient(294deg, #52ACFF 25%, #FFE32C 100%);
+    background-color: #FF9A44;
+    background-image: linear-gradient(330deg, #FC6076 25%, #FF9A44 100%);
 
 
 }
@@ -28,8 +28,7 @@ body{
 #userLogo{
     width: 55px;
     height: 55px;
-    display: block;
-    margin: 35px auto 20px;
+    margin: auto;
     border-radius: 50%;
 }
 
@@ -41,6 +40,24 @@ body{
     width: 100%;
     text-align: center;
     text-decoration: none;
+}
+
+#profile{
+    margin: auto;
+    max-width: 40px;
+    width: auto;
+    display: block;
+    margin: 5px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 645px;
+    width: auto;
+    margin: 27px auto;
 }
 
 #links{
@@ -63,7 +80,7 @@ body{
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
     border: solid var(--accentColor2) 2px;
     border-radius: 8px;
-    box-shadow: 0 4px 4px 0 rgba(254, 228, 64, 0.35), 0 6px 20px 0 rgba(254, 228, 64, 0.22);
+    box-shadow: 0 4px 4px 0 rgba(255, 154, 68, 0.35), 0 6px 20px 0 rgba(254, 228, 64, 0.22);
 }
 
 .link:hover{
@@ -71,30 +88,13 @@ body{
     color: var(--accentColor);
 }
 
-.container {
-    display: block;
-    align-items: center;
-    justify-content: center;
-}
-
-.img {
-    max-width: 25%;
-    max-height:15%;
-    float: left;
-}
-  
-.text {
-    padding-left: 20px;
-    padding-top: 20%;
-    float: left;
-}
-
-h5{
-    text-align: center;
+#ig{
+    text-decoration: none;
+    text-align: left;
     margin-bottom: 20px;
-    color: #E6E6E6;
+    color: #f6fff8;
     font-family: var(--font);
-    font-style: italic;;
+    font-size: 32px;
 }
 h1{
     text-align: center;
@@ -103,10 +103,11 @@ h1{
     font-family: var(--font);
 }
 h6{
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
-    color: rgb(136, 136, 136);
+    color: #f6fff8;
     font-family: var(--font);
+    padding-left: 1px;
 }
 .atrib{
     text-align: center;
